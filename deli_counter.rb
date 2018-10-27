@@ -6,7 +6,7 @@ katz_deli = []
 
 def take_a_number(array,name)
   array.push(name)
-  number = array.length + 1
+  number = array.length
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
