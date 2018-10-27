@@ -1,5 +1,5 @@
 def line(array)
-  sentence = ""
+  sentence = "The line is currently: "
   if array.length == 0
     puts "The line is currently empty."
   else
@@ -7,7 +7,7 @@ def line(array)
       string = "#{name.index}. #{name}"
       sentence = sentence + string
     end
-    puts "The line is currently: #{sentence}"
+    puts sentence
   end
 end
 
