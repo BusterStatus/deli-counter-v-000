@@ -5,8 +5,8 @@ def line(array)
     puts "The line is currently empty."
   else
    array.each do |name|
-     string = name.index 
-   puts "The line is currently: "
+     string = "#{name.index}. #{name}" 
+   puts "The line is currently: #{string}"
 end
 
 def take_a_number(array,name)
