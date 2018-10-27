@@ -6,7 +6,9 @@ def line(array)
   else
    array.each do |name|
      string = "#{name.index}. #{name}" 
+   end
    puts "The line is currently: #{string}"
+ end
 end
 
 def take_a_number(array,name)
