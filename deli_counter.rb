@@ -9,3 +9,6 @@ def take_a_number(array,name)
   number = array.length + 1
   "Welcome, #{name}. You are number #{number} in line."
 end
+
+def now_serving(array)
+  
