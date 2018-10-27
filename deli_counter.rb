@@ -7,7 +7,7 @@ def line(array)
       string = "#{name.index}. #{name}"
       sentence = sentence + string
     end
-    puts "The line is currently: #{string}"
+    puts "The line is currently: #{sentence}"
   end
 end
 
