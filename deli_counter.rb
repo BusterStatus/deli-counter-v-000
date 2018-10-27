@@ -7,8 +7,8 @@ def line(array)
       string = "#{array.index(name) + 1}. #{name} "
       sentence = sentence + string
     end
-    puts sentence
   end
+  puts sentence
 end
 
 def take_a_number(array,name)
