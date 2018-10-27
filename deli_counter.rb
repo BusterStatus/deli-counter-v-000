@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |name|
-      string = "#{name.index}. #{name}"
+      string = "#{array.index(name)#{name.index}. #{name}"
       sentence = sentence + string
     end
     puts sentence
