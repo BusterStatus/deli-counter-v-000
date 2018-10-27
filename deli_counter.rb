@@ -2,9 +2,10 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-   array.each do |name|
-     string = "#{name.index}. #{name}"
-   puts "The line is currently: #{string}"
+    array.each do |name|
+      string = "#{name.index}. #{name}"
+    end
+    puts "The line is currently: #{string}"
   end
 end
 
