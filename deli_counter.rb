@@ -1,9 +1,11 @@
 def line(array)
+  sentence = ""
   if array.length == 0
     puts "The line is currently empty."
   else
     array.each do |name|
       string = "#{name.index}. #{name}"
+      sentence = sentence + string
     end
     puts "The line is currently: #{string}"
   end
